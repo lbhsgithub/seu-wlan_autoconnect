@@ -1,6 +1,6 @@
 import requests        
 def post_seu(a,b):
-        post_addr="https://w.seu.edu.cn/index.php/index/login"
+        post_addr="https://xxxxxxxxxxxxxxxxxxxxxxxxx"
         post_header={
                 'Accept': 'application/json, text/javascript, */*; q=0.01',
                 'Accept-Encoding': 'gzip, deflate,br',
@@ -8,9 +8,9 @@ def post_seu(a,b):
                 'Connection': 'keep-alive',
                 'Content-Length': '56',
                 'Content-Type': 'application/x-www-form-urlencoded',
-                'Host': 'w.seu.edu.cn',
-                'Origin': 'https://w.seu.edu.cn',
-                'Referer': 'https://w.seu.edu.cn/',
+                'Host': 'xxxxxxxxxxxxxxxxxxxxxxxxx',
+                'Origin': 'https://xxxxxxxxxxxxxxxxxxxxxxxxx',
+                'Referer': 'https://xxxxxxxxxxxxxxxxxxxxxxxxx',
                 'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
                 'X-Requested-With': 'XMLHttpRequest',
                 'Cookie': 'think_language=zh-Hans-CN; sunriseUsername='+a+'', 
